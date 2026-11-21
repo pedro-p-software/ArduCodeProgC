@@ -66,6 +66,7 @@ void gameStart(void)
   tft.println("2");
   delay(500);
   tft.println("1");
+  tft.setCursor(0, 0);
   tft.fillScreen(TFT_BLUE);
   delay(1000);
 }
